@@ -7,7 +7,7 @@ import checkAuth from './utils/checkAuth.js'
 
 import * as UserController from './controllers/UserController.js'
 process.env.MONGODB_URI='mongodb+srv://admin:admin@cluster0.d2py2e4.mongodb.net/task4?retryWrites=true&w=majority'
-process.env.PORT = 5000
+// process.env.PORT = 5000
 
 mongoose.connect(process.env.MONGODB_URI)
 .then(()=> console.log('DB OK'))
